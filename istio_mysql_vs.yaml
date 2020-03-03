@@ -1,0 +1,15 @@
+apiVersion: networking.istio.io/v1alpha3
+#apiVersion: apps/v1
+kind: VirtualService
+metadata:
+  name: mysql01
+  namespace: mysql
+spec:
+  hosts:
+  - mysql
+  http:
+  - route:
+    - destination:
+        host: mysql
+        subset: v1
+      weight: 100
