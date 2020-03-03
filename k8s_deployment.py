@@ -151,9 +151,9 @@ if __name__ == '__main__':
     print("="*100)
     namespace = 'alexnamespace01'
 
-    #create_deployment()
-    #create_service()
-    #create_ingress()
+    create_deployment()
+    create_service()
+    create_ingress()
 
     service_list = list_service(namespace)
     for name,type,nodeport in service_list:
@@ -161,7 +161,7 @@ if __name__ == '__main__':
 
     print("="*100)
 
-    #list_endpoints(namespace)
+    list_endpoints(namespace)
 
     ingress_list = list_ingress(namespace)
     for name,host in ingress_list:
