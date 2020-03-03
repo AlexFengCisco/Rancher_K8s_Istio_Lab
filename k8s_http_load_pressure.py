@@ -1,13 +1,4 @@
-'''
-import requests
 
-num_requests = 20
-
-responses = [
-    requests.get('http://alexoshttp.alexnamespace01.10.75.58.92.xip.io/')
-    for i in range(num_requests)
-]
-'''
 import asyncio
 import requests
 
