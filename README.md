@@ -8,7 +8,7 @@
 
 #### Docker image build
 
-    build base linux distro image  with yocto, and build docker base image from yocto image
+    build base open embedded linux distro image  with yocto, and build docker base image from yocto image
     see docker_base_image_build.md
     
 #### Rancher 2.x and K8s lab
