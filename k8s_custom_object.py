@@ -82,22 +82,22 @@ if __name__ == "__main__":
              destinationrules
     '''
 
-    #resp = delete_namespaced_custom_object('mysql01',namespace,plural)
-    #print('virtual service {} was deleted {}.'.format(resp['details']['name'],resp['status']))
+    resp = delete_namespaced_custom_object('mysql01',namespace,plural)
+    print('virtual service {} was deleted {}.'.format(resp['details']['name'],resp['status']))
 
-    #time.sleep(5)
-    #resp = create_namespaced_customer_object(namespace,plural,object_file)
-    #print('Virtual Service {} created. '.format(resp['metadata']['name']))
+    time.sleep(5)
+    resp = create_namespaced_customer_object(namespace,plural,object_file)
+    print('Virtual Service {} created. '.format(resp['metadata']['name']))
 
     namespace = 'bookinfo'
     object_file = 'istio_bookinfo_reviews.yaml'
     resp = patch_namespaced_custom_object('reviews',namespace,plural,object_file)
     pp(resp)
 
-    #namespace = 'bookinfo'
+    namespace = 'bookinfo'
 
-    #resp = list_namespaced_custome_object(namespace,plural)
-    #pp(resp)
+    resp = list_namespaced_custome_object(namespace,plural)
+    pp(resp)
 
-    #resp = get_namespaced_custome_object('reviews',namespace,plural)
-    #pp(resp)
+    resp = get_namespaced_custome_object('reviews',namespace,plural)
+    pp(resp)
