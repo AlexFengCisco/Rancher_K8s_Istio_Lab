@@ -18,9 +18,9 @@ for x in mycursor:
 
 id = 5
 serial = 5
-name = 'BBB'
+name = 'alex'
 title = 'se'
-years = 23
+years = 16
 
 sql = 'INSERT INTO table01 (id, serial,name,title,years) VALUES ({},{},"{}","{}",{})'.format(id,serial,name,title,years)
 '''
