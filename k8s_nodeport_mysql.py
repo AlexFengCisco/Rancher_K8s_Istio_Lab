@@ -5,7 +5,7 @@ mydb = mysql.connector.connect(
   host="10.75.58.92",
   port='30001',
   user="admin",
-  passwd="Alex2012",
+  passwd="xxxx",
   database='admin'
 )
 
