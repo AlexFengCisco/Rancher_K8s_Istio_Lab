@@ -23,14 +23,13 @@
     $ source /home/your_username/buildtools/environment-setup-i586-poky-linux
 
 
-#### tips 
+#### lab tips 
 
 	1.can not with user root
-	2.can not git cloen git ,has to git clone https
+	2.can not git clone git ,has to git clone https
 	3.has to change locale to utf-8
-	3.use ack/ack-grep to improve search efficency
+	4.use ack/ack-grep to improve search efficency
 
-### lab log
 
 #### set up locale to utf-8
 
