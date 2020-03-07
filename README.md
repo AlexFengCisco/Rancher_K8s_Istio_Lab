@@ -19,3 +19,7 @@
 #### Istio service mesh lab
 
     see istio_lab.md
+    
+#### CI/CD pipeline lab
+
+    see folder rancher_cicd_pipeline README.md
