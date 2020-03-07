@@ -23,7 +23,10 @@
     deploy k8s deployment service and ingress load balance  with yaml file deployment.yaml
 
 #### tips
-    change docker image tag version before git push .....  
+    change docker image tag version before git push .....
+    
+    create deployment service and ingree load balancer from web UI, and copy the yaml file for pipeline
+      
 
     
     
