@@ -1,4 +1,4 @@
-## Rancher 2.x Pipeline Test
+## Rancher 2.x CI/CD Pipeline Test
 
     Dockerfile
     deployment.yaml
