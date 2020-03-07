@@ -21,7 +21,9 @@
     
     step 3 stage
     deploy k8s deployment service and ingress load balance  with yaml file deployment.yaml
-    
+
+#### tips
+    change docker image tag version before git push .....  
 
     
     
