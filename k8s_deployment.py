@@ -151,10 +151,12 @@ if __name__ == '__main__':
     print("="*100)
     namespace = 'alexnamespace01'
 
-    create_deployment()
-    create_service()
-    create_ingress()
+    #create_deployment()
+    #create_service()
+    #create_ingress()
 
+
+    namespace = 'alexnamespace01'
     service_list = list_service(namespace)
     for name,type,nodeport in service_list:
         print('{} {} {}'.format(name,type,nodeport))
@@ -169,4 +171,4 @@ if __name__ == '__main__':
 
     print("=" * 100)
 
-    create_istio_vs()
+    #create_istio_vs()
